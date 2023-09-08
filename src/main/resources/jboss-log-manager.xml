@@ -1,0 +1,15 @@
+<configuration>
+  <root-logger>
+    <level name="INFO"/>
+    <handlers>
+      <handler name="CONSOLE"/>
+    </handlers>
+  </root-logger>
+  <logger category="com.example">
+    <level name="DEBUG"/>
+    <handlers>
+      <handler name="FILE"/>
+    </handlers>
+  </logger>
+  <!-- Add more loggers and handlers as needed -->
+</configuration>
